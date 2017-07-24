@@ -1,7 +1,14 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
 body {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  background-color: #FFFCF2;
 }
+
+main {
+  max-width: 50em;
+  margin: 0 auto;
+}
+
 h1 {
   font-size: 40px;
   display: flex;
@@ -13,9 +20,11 @@ h1 {
    position: fixed;
    flex-direction: row;
    align-items: center;
-   justify-content: space-between;
+   justify-content: flex-end;
    top: 0;
    width: 100%;
+   background-color: #091540;
+   color: #7692FF;
  }
 
  li {
@@ -23,12 +32,13 @@ h1 {
  }
 
  header {
-   background-color: #263d36;
    background-image: url("header.jpg");
    background-position: center top;
    background-repeat: no-repeat;
    background-size: cover;
-   line-height: 1.2;
+   line-height: 1.2em;
+   color: white;
    padding: 10vw 2em;
    text-align: center;
+   max-width: none;
  }
