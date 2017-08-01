@@ -45,6 +45,7 @@ h3 {
 
  a, a:visited {
    color: #7692FF;
+   text-decoration: none;
  }
 
  li {
