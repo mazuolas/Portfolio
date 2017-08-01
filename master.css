@@ -90,11 +90,16 @@ nav i {
 }
 
 .box {
-  border: 1px solid grey;
   padding: 1.2em;
   margin: 1.2em;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: box-shadow .3s ease-in-out, transform .3s ease-in-out;
+}
+
+.box:hover {
+  transform: translate3d(0, -10px, 0);
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .15);
 }
