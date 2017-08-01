@@ -43,6 +43,11 @@ h1 {
    max-width: none;
  }
 
+#photo-credit {
+  color: grey;
+  padding: 1em;
+}
+
 .project-img {
   max-width: 40em;
 }
