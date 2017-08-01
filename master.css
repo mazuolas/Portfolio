@@ -46,3 +46,9 @@ h1 {
 .project-img {
   max-width: 40em;
 }
+
+.skills {
+  display: flex;
+  flex-direction: row;
+
+}
