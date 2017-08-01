@@ -10,10 +10,18 @@ main {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 3em;
+  font-weight: lighter;
   display: flex;
   justify-content: center;
-  margin: 40px;
+  padding: .1em;
+  margin: .2em;
+}
+
+h2 {
+  padding: .1em;
+  font-size: 1.5em;
+  font-weight: bold;
 }
  nav ul {
    display: flex;
@@ -24,6 +32,10 @@ h1 {
    top: 0;
    width: 100%;
    background-color: #091540;
+   color: #7692FF;
+ }
+
+ a, a:visited {
    color: #7692FF;
  }
 
