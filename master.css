@@ -103,3 +103,7 @@ nav i {
   transform: translate3d(0, -10px, 0);
   box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .15);
 }
+
+.project {
+  position: relative;
+}
