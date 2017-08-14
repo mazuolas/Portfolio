@@ -70,7 +70,11 @@ h3 {
 }
 
 .project-img {
+  display: flex;
+  z-index: -1;
   max-width: 40em;
+  position: relative;
+  margin: 0 auto;
 }
 
 i, img {
@@ -106,4 +110,11 @@ nav i {
 
 .project {
   position: relative;
+}
+
+.hover-text {
+  display: flex;
+  align-items: center;
+  max-width: 30em;
+  margin: 2em auto;
 }
