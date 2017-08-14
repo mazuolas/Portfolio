@@ -119,6 +119,8 @@ nav i {
   align-items: center;
   justify-content: center;
   max-width: 35em;
-  margin: 2em auto;
   line-height: 1.3em;
+  position: absolute;
+  top: 50%;
+  left: 15%;
 }
