@@ -117,6 +117,8 @@ nav i {
 .hover-text {
   display: flex;
   align-items: center;
+  justify-content: center;
   max-width: 35em;
   margin: 2em auto;
+  line-height: 1.3em;
 }
