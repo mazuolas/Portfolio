@@ -73,10 +73,14 @@ h3 {
 
 .project-img {
   display: flex;
-  z-index: -1;
   max-width: 40em;
   position: relative;
   margin: 0 auto;
+}
+
+.project:hover img {
+  -webkit-filter: grayscale(100%) blur(10px); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%) blur(5px);
 }
 
 i, img {
@@ -115,12 +119,21 @@ nav i {
 }
 
 .hover-text {
+  padding: 2em;
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 35em;
-  line-height: 1.3em;
+  max-width: 30em;
+  line-height: 1.5em;
   position: absolute;
-  top: 50%;
+  top: 10%;
   left: 15%;
+  opacity: 0;
+  min-height: 50%
+}
+
+.project:hover .hover-text {
+  opacity: 1;
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .15);
+  background-color: white;
 }
