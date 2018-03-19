@@ -92,6 +92,13 @@ h3 {
 .skills {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+}
+
+.certifications{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .box {
